@@ -1,13 +1,15 @@
-package com.example.assignment2_comp1011;
 
-import com.google.gson.annotations.SerializedName;
-
-public class APIResponse2 {
-
-    @SerializedName("data")
-    private PlayerInfo data;
-
-    public PlayerInfo getData() {
-        return data;
-    }
+{
+  "apikey": "65c7cf53-44bb-4e8c-bf33-efb8bc192e42",
+  "data": {
+    "id": "5d85ff9a-fe87-4b27-bf34-ad7bd74d5195",
+    "name": "Virat Singh",
+    "dateOfBirth": "1997-12-08T00:00:00",
+    "role": "Batsman",
+    "battingStyle": "Left Handed Bat",
+    "bowlingStyle": "Right-arm legbreak",
+    "placeOfBirth": "East Singhbhum, Bihar",
+    "country": "India",
+    "playerImg": "https://cdorgapi.b-cdn.net/img/icon512.png"
+  }
 }

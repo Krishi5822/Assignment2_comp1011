@@ -1,21 +1,140 @@
-package com.example.assignment2_comp1011;
-
-import com.google.gson.annotations.SerializedName;
-
-public class APIResponse {
-
-
-    @SerializedName("data")
-    private PlayerData[] data;
-
-    @SerializedName("apikey")
-    private String apikey;
-
-    public PlayerData[] getData() {
-        return data;
+{
+  "apikey": "65c7cf53-44bb-4e8c-bf33-efb8bc192e42",
+  "data": [
+    {
+      "id": "09d66f6a-21ca-463c-af4a-d9f9c6da8c07",
+      "name": "Ronan Hermann",
+      "country": "South Africa"
+    },
+    {
+      "id": "3a719827-8f23-426e-a2e5-382a082a0ffa",
+      "name": "Kieran McComb",
+      "country": "New Zealand"
+    },
+    {
+      "id": "b3e837a0-1e23-4996-b4b7-a0a88344fa6a",
+      "name": "Josh Brown",
+      "country": "New Zealand"
+    },
+    {
+      "id": "58fae6f7-848e-439f-9119-8b8e679a1f7d",
+      "name": "Ben Pomare",
+      "country": "New Zealand"
+    },
+    {
+      "id": "ed99ee3b-f763-4bd1-a97b-099f8213272b",
+      "name": "Pete Drysdale",
+      "country": "New Zealand"
+    },
+    {
+      "id": "8c69d6b5-07fb-41a7-ab8f-12fb1e4fd6e6",
+      "name": "Sandeep Patel",
+      "country": "New Zealand"
+    },
+    {
+      "id": "33c5a88e-8325-468f-8ce9-4a2fc2dc3d4b",
+      "name": "Sam Varcoe",
+      "country": "New Zealand"
+    },
+    {
+      "id": "41a18e51-db86-430f-ae56-aea1938f8ea6",
+      "name": "Fergus Lellman",
+      "country": "New Zealand"
+    },
+    {
+      "id": "ed0a56f8-ba1a-40ff-8819-6d334bf18e26",
+      "name": "Flynn Sumpter",
+      "country": "New Zealand"
+    },
+    {
+      "id": "100d6a64-d26c-45c1-96b0-406655eafaaf",
+      "name": "Jordan Sussex",
+      "country": "New Zealand"
+    },
+    {
+      "id": "65f6dc74-f5cc-4514-a5af-d481ffcd3074",
+      "name": "Ben Stoyanoff",
+      "country": "New Zealand"
+    },
+    {
+      "id": "982299e9-7112-4b8d-87cf-3bd3b730ccb7",
+      "name": "Neo Siyabulela Felane",
+      "country": "South Africa"
+    },
+    {
+      "id": "a15ac6eb-897f-4ad3-9e77-a4439adc7f09",
+      "name": "Nhlanhla Mashigo",
+      "country": "South Africa"
+    },
+    {
+      "id": "921cdeff-a561-4819-8d4c-b53324b85cf4",
+      "name": "Aphiwe Mnyanda",
+      "country": "South Africa"
+    },
+    {
+      "id": "fbff5ea0-fb50-4fe0-b911-8b694185ad75",
+      "name": "Joshua Chippendale",
+      "country": "South Africa"
+    },
+    {
+      "id": "65e39bbf-9efa-42a9-8b71-503abdf697ea",
+      "name": "Louren Steenkamp",
+      "country": "South Africa"
+    },
+    {
+      "id": "b6127c2f-c669-4cad-9edc-a2907d5dafce",
+      "name": "Shelton Ngobeni",
+      "country": "South Africa"
+    },
+    {
+      "id": "a92efeb0-4afc-42de-9dd4-cb8763214e9e",
+      "name": "Oshane Thomas",
+      "country": "West Indies"
+    },
+    {
+      "id": "3b1ea632-ef6d-40f0-9402-e690b28907ca",
+      "name": "Gudakesh Motie",
+      "country": "West Indies"
+    },
+    {
+      "id": "ab5edd18-22ab-42c9-a914-e2fa2d96dec7",
+      "name": "Ammar Zuhdi Hazalan",
+      "country": "Malaysia"
+    },
+    {
+      "id": "3a4c33f2-993e-40a4-a378-efc21dcb66ef",
+      "name": "Ainool Hafizs",
+      "country": "Malaysia"
+    },
+    {
+      "id": "83aeede5-e775-4645-80d7-ecb461e3ef4c",
+      "name": "Vijay Unni",
+      "country": "Malaysia"
+    },
+    {
+      "id": "67bdaee7-6bfa-44a1-b517-dfa668ad006c",
+      "name": "Muhammad Wafiq",
+      "country": "Malaysia"
+    },
+    {
+      "id": "41b893fd-be6f-43d9-8bef-a58cc4a6ccda",
+      "name": "Pavandeep Singh",
+      "country": "Malaysia"
+    },
+    {
+      "id": "8ced08d8-b803-48e2-a6b2-42780a10709f",
+      "name": "Nazril Rahman",
+      "country": "Malaysia"
     }
-
-    public String getApikey() {
-        return apikey;
-    }
+  ],
+  "status": "success",
+  "info": {
+    "hitsToday": 41,
+    "hitsLimit": 500,
+    "credits": 0,
+    "server": 18,
+    "offsetRows": 0,
+    "totalRows": 0,
+    "queryTime": 10.1133
+  }
 }
