@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example_a2.SearchViewController">
+   <children>
+      <BorderPane prefHeight="398.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <HBox spacing="20.0" BorderPane.alignment="CENTER">
+               <children>
+                  <TextField fx:id="searchTextField" prefHeight="40.0" prefWidth="489.0">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </TextField>
+                  <Button mnemonicParsing="false" onAction="#searchPlayers" prefHeight="40.0" prefWidth="302.0" text="Search" />
+               </children>
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </padding>
+            </HBox>
+         </top>
+         <center>
+            <ListView fx:id="resultListView" maxHeight="250.0" maxWidth="559.0" prefHeight="250.0" prefWidth="559.0" BorderPane.alignment="CENTER">
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" />
+               </padding>
+            </ListView>
+         </center>
+         <bottom>
+            <Label fx:id="msgLabel" text="Label" BorderPane.alignment="CENTER">
+               <graphic>
+                  <Button id="button" fx:id="getDetailsButton" alignment="CENTER" contentDisplay="TOP" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#getDetails" prefHeight="5.0" prefWidth="108.0" stylesheets="@style.css" text="Get Details" textAlignment="CENTER">
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                  </Button>
+               </graphic>
+            </Label>
+         </bottom>
+      </BorderPane>
+   </children>
+</AnchorPane>
